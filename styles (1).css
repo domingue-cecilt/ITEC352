@@ -1,0 +1,36 @@
+/* 
+  Author: Tyler Domingue
+  Date: 2025-10-05
+  File: styles.css
+  Note: External stylesheet for the assignment.
+*/
+
+/* Reset (light) */
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+
+/* Base */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background: #f7f7fb;
+}
+a { color: #0a58ca; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Header / Nav */
+header.site-header {
+  background:#111827; color:#fff; padding:16px 0;
+}
+.nav { display:flex; gap:16px; list-style:none; padding:0; margin:8px 0 0; }
+.nav a { color:#fff; padding:6px 10px; border-radius:8px; }
+.nav a[aria-current="page"], .nav a:hover { background:#1f2937; }
+
+/* Layout */
+.container { width: min(1000px, 92%); margin: 0 auto; }
+.card { background:#fff; border:1px solid #e5e7eb; border-radius:12px; padding:16px; margin:18px 0; }
+
+/* Footer */
+footer.site-footer { background:#0b0d12; color:#cbd5e1; padding:14px 0; margin-top:28px; }
+footer.site-footer a { color:#fff; }
